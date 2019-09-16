@@ -72,11 +72,14 @@ chacun des fichiers présents ?
 
 1. En suivant le modèle de la formule du point milieu, dans le fichier
 [./src/quadratures.py](./src/quadratures.py) programmer la méthode des
-trapèzes.
+trapèzes (programmer une autre fonction dans le même fichier
+[./src/quadratures.py](./src/quadratures.py)).
 
 2. Tester cette nouvelle quadrature en utilisant comme modèle le
 programme [./src/tests.py](./src/tests.py): vérifier que cette formule
 calcul de manière exacte les intégrales de polynoes de degré au plus 1,
-et comment une erreur équivalente à $h^2$ (ou encore $N^{-2}$).
+et comment une erreur équivalente à $h^2$ (ou encore
+$N^{-2}$). Reproduire ci-dessous les tableaux d'erreurs qui démontrent
+ce résultat, et inclure le graphe de convergence des approximations.
 
 
