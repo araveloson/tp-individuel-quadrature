@@ -12,7 +12,7 @@ adapté à vos expériences de programmation, qui sont très
 variables). C'est l'effort dans l'utilisation des outils (git et python)
 qui est valorisé.*
 
-**À la fin de votre travail, il est donc capital de pousser (/git push/)
+**À la fin de votre travail, il est donc capital de pousser (git push)
   vos modifications sur le serveur, afin que je puisse les voir**
 
 *Rappel:* prenre connaissance, brièvement, du [langage
@@ -31,23 +31,23 @@ Si vous lisez ceci, c'est que vous avez:
 ## Première partie: environnement de travail et initiation à Python
 
 1. Une fois le dépôt créé, vous le voyez sur votre compte github (en
-ligne). Vous pouvez donc récupérer l'adresse et /cloner/ le dépôt pour
+ligne). Vous pouvez donc récupérer l'adresse et *cloner* le dépôt pour
 commencer à travailler.
 
-2. N'oubliez pas de configurer git si nécessaire (/git config --list,
-git config --local user.{name,email}/).
+2. N'oubliez pas de configurer git si nécessaire (*git config --list,
+git config --local user.{name,email}*).
 
-3. Préparez votre environnement de travail: éditeur de texte (/emacs/,
-/vim/, /atom/...) et terminaux (terminal par défaut du système, pour git
-et pour l'interpréteur /ipython3/), ou bien environnement de
-développement intégré (comme /spyder3). Pouvez vous détailler ci-dessous
+3. Préparez votre environnement de travail: éditeur de texte (*emacs*,
+*vim*, *atom*...) et terminaux (terminal par défaut du système, pour git
+et pour l'interpréteur *ipython3*), ou bien environnement de
+développement intégré (comme *spyder3*). Pouvez vous détailler ci-dessous
 votre choix d'environnement de travail ?
 
-/...écrire la réponse ici.../
+*...écrire la réponse ici...*
 
 4. Puisque vous avez apporté des modifications cohérentes (réponse à la
-question 3. ci-dessus), validez ces modifications (/git add/ et /git
-commit -m "..."/).
+question 3. ci-dessus), validez ces modifications (*git add* et *git
+commit -m "..."*).
 
 5. Familiarisez vous avec le contenu du répertoire, qui devrait
 ressembler à :
