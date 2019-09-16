@@ -71,6 +71,12 @@ chacun des fichiers présents ?
 ## Deuxième partie: formules de quadrature
 
 1. En suivant le modèle de la formule du point milieu, dans le fichier
-<./src/quadratures.py> programmer la méthode des trapèzes.
+[./src/quadratures.py](./src/quadratures.py) programmer la méthode des
+trapèzes.
+
+2. Tester cette nouvelle quadrature en utilisant comme modèle le
+programme [./src/tests.py](./src/tests.py): vérifier que cette formule
+calcul de manière exacte les intégrales de polynoes de degré au plus 1,
+et comment une erreur équivalente à $h^2$ (ou encore $N^{-2}$).
 
 
