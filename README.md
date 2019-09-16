@@ -31,8 +31,8 @@ Si vous lisez ceci, c'est que vous avez:
 ## Première partie: environnement de travail et initiation à Python
 
 1. Une fois le dépôt créé, vous le voyez sur votre compte github (en
-ligne). Vous pouvez donc récupérer l'adresse et *cloner* le dépôt pour
-commencer à travailler (*git clone <url à récupérer en ligne>*).
+ligne). Vous pouvez donc récupérer l'adresse et télécharger le dépôt
+pour commencer à travailler (*git clone <url à récupérer en ligne>*).
 
 2. N'oubliez pas de configurer git si nécessaire (*git config --list,
 git config --local user.{name,email}*).
@@ -40,7 +40,7 @@ git config --local user.{name,email}*).
 3. Préparez votre environnement de travail: éditeur de texte (*emacs*,
 *vim*, *atom*...) et terminaux (terminal par défaut du système, pour git
 et pour l'interpréteur *ipython3*), ou bien environnement de
-développement intégré (comme *spyder3*). Pouvez vous détailler ci-dessous
+développement intégré (comme *spyder3*). Pouvez-vous détailler ci-dessous
 votre choix d'environnement de travail ?
 
 *...écrire la réponse ici...*
@@ -52,13 +52,13 @@ commit -m "..."*).
 5. Familiarisez vous avec le contenu du répertoire, qui devrait
 ressembler à :
     
-        ├── README.md
-	├── img
-	│   └── test_1.png
-	└── src
-	    ├── fonctions_test.py
-    	    ├── quadratures.py
-    	    ├── tests.py
+├── README.md
+├── img
+│   └── test_1.png
+└── src
+    ├── fonctions_test.py
+    ├── quadratures.py
+    ├── tests.py
 
 Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
 chacun des fichiers présents ?
