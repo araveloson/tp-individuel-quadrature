@@ -118,3 +118,8 @@ pour la méthode du point milieu pour chacune des ces fonctions.
    milieu. Pour cela, dressez un tableau et un graphe de convergence
    pour chacune des fonctions de la question 3. Vous pouvez discuter du
    résultat.
+
+**N'oubliez pas de valider les modifications faites le plus souvent
+possible (*validations atomiques*), et de documenter intelligiblement
+l'historique associé (les messages). Finalement, n'oubliez pas de
+pousser votre travail sur le dépôt.**
