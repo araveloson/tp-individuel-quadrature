@@ -69,3 +69,8 @@ chacun des fichiers présents ?
   changements sur le serveur (*git push*)**
 
 ## Deuxième partie: formules de quadrature
+
+1. En suivant le modèle de la formule du point milieu, dans le fichier
+[ici](file:./src/quadratures.py) programmer la méthode des trapèzes.
+
+
