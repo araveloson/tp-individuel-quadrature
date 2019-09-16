@@ -32,7 +32,7 @@ Si vous lisez ceci, c'est que vous avez:
 
 1. Une fois le dépôt créé, vous le voyez sur votre compte github (en
 ligne). Vous pouvez donc récupérer l'adresse et *cloner* le dépôt pour
-commencer à travailler.
+commencer à travailler (*git clone <url à récupérer en ligne>*).
 
 2. N'oubliez pas de configurer git si nécessaire (*git config --list,
 git config --local user.{name,email}*).
