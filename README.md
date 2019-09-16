@@ -40,8 +40,8 @@ git config --local user.{name,email}*).
 3. Préparez votre environnement de travail: éditeur de texte (*emacs*,
 *vim*, *atom*...) et terminaux (terminal par défaut du système, pour git
 et pour l'interpréteur *ipython3*), ou bien environnement de
-développement intégré (comme *spyder3*). Pouvez-vous détailler ci-dessous
-votre choix d'environnement de travail ?
+développement intégré (comme *spyder3*). Pouvez-vous détailler
+ci-dessous votre choix d'environnement de travail ?
 
 *...écrire la réponse ici...*
 
@@ -53,13 +53,16 @@ commit -m "..."*).
 ressembler à :
     
 ```
-  ├── README.md
-  ├── img
-  │   └── test_1.png
-  └── src
-      ├── fonctions_test.py
-      ├── quadratures.py
-      ├── tests.py
+├── README.md
+├── img
+│   └── test_1.png
+├── src
+│   ├── fonctions_test.py
+│   ├── quadratures.py
+│   └── tests.py
+└── tex
+    ├── memo_quadratures.pdf
+    ├── memo_quadratures.tex
 ```
 
 Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
