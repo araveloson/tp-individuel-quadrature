@@ -52,13 +52,13 @@ commit -m "..."*).
 5. Familiarisez vous avec le contenu du répertoire, qui devrait
 ressembler à :
     
-  ├── README.md
-  ├── img
-  │   └── test_1.png
-  └── src
-      ├── fonctions_test.py
-      ├── quadratures.py
-      ├── tests.py
+>  ├── README.md
+>  ├── img
+>  │   └── test_1.png
+>  └── src
+>      ├── fonctions_test.py
+>      ├── quadratures.py
+>      ├── tests.py
 
 Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
 chacun des fichiers présents ?
