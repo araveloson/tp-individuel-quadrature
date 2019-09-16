@@ -92,3 +92,7 @@ primitives)
  - $f(x) = exp(x)$ et $g(x) = exp(x)$;
  - $f(x) = 1/(1+x^2)$ et $g(x) = atan(x)$.
 
+4. En adaptant le programme [./src/tests.py](./src/tests.py), produire
+une unique graphes qui compare les graphes de convergence de l'erreur
+pour ces nouvelles fonctions integrées entre $-1$ et $+1$. Insérez
+l'image ci-dessous, et faites tous les commentaires utiles.
