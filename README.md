@@ -64,3 +64,8 @@ ressembler à :
 
 Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
 chacun des fichiers présents ?
+
+**Pensez à valider régulièrement votre travail, et à pousser les
+  changements sur le serveur (*git push*)**
+
+## Deuxième partie: formules de quadrature
