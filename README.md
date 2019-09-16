@@ -12,7 +12,7 @@ adapté à vos expériences de programmation, qui sont très
 variables). C'est l'effort dans l'utilisation des outils (git et python)
 qui est valorisé.*
 
-**À la fin de votre travail, il est donc capital de pousser (git push)
+**À la fin de votre travail, il est donc capital de pousser (*git push*)
   vos modifications sur le serveur, afin que je puisse les voir**
 
 *Rappel:* prenre connaissance, brièvement, du [langage
