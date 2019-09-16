@@ -82,4 +82,13 @@ et comment une erreur équivalente à $h^2$ (ou encore
 $N^{-2}$). Reproduire ci-dessous les tableaux d'erreurs qui démontrent
 ce résultat, et inclure le graphe de convergence des approximations.
 
+3. On veut tester nos formules pour d'autres fonctions que les
+polynômes. Pour cela, on ajoute les fonctions souhaitées dans le fichier
+[./src/fonctions_test.py](./src/fonctions_test.py). En suivant le modèle
+donné pour les monômes, programmer les fonctions (et une de leurs
+primitives)
+ - $f(x) = |x|$ et $g(x) = 0.5*x*|x|$;
+ - $f(x) = cos(x)$ et $g(x) = sin(x)$;
+ - $f(x) = exp(x)$ et $g(x) = exp(x)$;
+ - $f(x) = 1/(1+x^2)$ et $g(x) = atan(x)$.
 
