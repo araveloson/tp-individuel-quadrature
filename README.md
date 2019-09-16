@@ -52,7 +52,8 @@ commit -m "..."*).
 5. Familiarisez vous avec le contenu du répertoire, qui devrait
 ressembler à :
     
-```  ├── README.md
+```
+  ├── README.md
   ├── img
   │   └── test_1.png
   └── src
