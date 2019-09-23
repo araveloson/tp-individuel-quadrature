@@ -96,3 +96,11 @@ primitives)
 une unique graphes qui compare les graphes de convergence de l'erreur
 pour ces nouvelles fonctions integrées entre $-1$ et $+1$. Insérez
 l'image ci-dessous, et faites tous les commentaires utiles.
+
+5. Programmez maintenant des méthodes d'ordre plus élevées:
+
+ - la méthode de Simpson, qui préserve l'intégrale des polynômes de
+   degré 3
+ 
+ - les premières méthodes de Gauss, qui préservent l'intégrale des polynômes de
+   degré 3
