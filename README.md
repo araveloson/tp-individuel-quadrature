@@ -97,18 +97,18 @@ Le programme fournit permet de tester la formule du point milieu sur les
 monomes (puissance 0, 1, 2). Les résultats obtenus sont donnés dans le
 tableau et le graphe ci-dessous: 
 
-n   | x^0 | x^1 | x^2
---- | --- | --- | ---
-1   |   0 |   0 | 8.333e-02
-2   |   0 |   0 | 2.083e-02
-4   |   0 |   0 | 51208e-03
-8   |   0 |   0 | 1.302e-03
-16  |   0 |   0 | 3.255e-04
-32  |   0 |   0 | 8.138e-05
-64  |   0 |   0 | 2.035e-05
-128 |   0 |   0 | 5.086e-06
-256 |   0 |   0 | 1.272e-06
-512 |   0 |   0 | 3.179e-07
+n   | erreur x^0 | erreur x^1 | erreur x^2
+--- | ---------- | ---------- | ----------
+1   |          0 |          0 | 8.333e-02
+2   |          0 |          0 | 2.083e-02
+4   |          0 |          0 | 51208e-03
+8   |          0 |          0 | 1.302e-03
+16  |          0 |          0 | 3.255e-04
+32  |          0 |          0 | 8.138e-05
+64  |          0 |          0 | 2.035e-05
+128 |          0 |          0 | 5.086e-06
+256 |          0 |          0 | 1.272e-06
+512 |          0 |          0 | 3.179e-07
 
 ![Illustration de l'ordre de la méthode du point
 milieu](./img/test_1.png)
