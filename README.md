@@ -110,7 +110,7 @@ n   | x^0 | x^1 | x^2
 256 |   0 |   0 | 1.272e-06
 512 |   0 |   0 | 3.179e-07
 
-[Illustration de l'ordre de la méthode du point
+![Illustration de l'ordre de la méthode du point
 milieu](./img/test_1.png)
 
 L'erreur est nulle pour l'intégration des fonctions $x^0$ et $x^1$ car
