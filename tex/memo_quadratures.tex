@@ -2,6 +2,7 @@
 
 \usepackage[french]{babel}  % Pour le français
 \usepackage[utf8]{inputenc} % Pour taper les caractères accentués
+\usepackage[T1]{fontenc}
 
 \usepackage{amsmath}  % Ces trois paquets donnent accès à 
 \usepackage{amsfonts} % des symboles et formulations
@@ -79,7 +80,11 @@ intégrés exactement, c'est à dire pour lesquels on a $If = Qf$.
 \subsection*{Formules composées}
 Ce sont les formules obtenues en composant les formules élémentaires sur
 un découpage de l'intervalle $[a,b]$ en $n$ sous-intervalles de même
-longueur $h = \frac{b-a}n$. On procède de la manière suivante:
+longueur $h = \frac{b-a}n$. On procède de la manière suivante (découpage
+de $[a,b]$ en $n$ sous-intervalles, puis changement de variable
+$x = a+ih+h\frac{t-\alpha}{\beta-\alpha}$ pour ramener
+$x \in [a+ih, a+(i+1)h]$ sur $t \in [\alpha,\beta]$ -- dans chaque
+sous-intervalle):
 \begin{multline*}
   \int_a^b f(x)dx = \sum_{i=0}^{n-1} \int_{a+ih}^{a+(i+1)h} f(x)dx =
   \sum_{i=0}^{n-1} \frac{h}{\beta-\alpha} \int_\alpha^\beta f\left(
