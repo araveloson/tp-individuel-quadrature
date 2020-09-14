@@ -93,9 +93,10 @@ chacun des fichiers présents ?
 
 ## Deuxième partie: formules de quadrature
 
+### Exemple: brève analyse de l'ordre de la formule du point milieu
 Le programme fournit permet de tester la formule du point milieu sur les
 monomes (puissance 0, 1, 2). Les résultats obtenus sont donnés dans le
-tableau et le graphe ci-dessous: 
+tableau et le graphe ci-dessous:
 
 n   | erreur x^0 | erreur x^1 | erreur x^2
 --- | ---------- | ---------- | ----------
@@ -124,6 +125,8 @@ par 2 (dans le tableau) ou encore est divisée par 10^2 chaque fois que
 $n$ est multiplié par 10 (visible sur le graphe). C'est cohérent avec la
 théorie pour une formule composée d'ordre 1.
 
+### Programmation et analyse d'autres formules
+
 1. En suivant le modèle de la formule du point milieu, dans le fichier
 [./src/quadratures.py](./src/quadratures.py) programmer la méthode des
 trapèzes (programmer une autre fonction dans le même fichier
@@ -132,43 +135,45 @@ trapèzes (programmer une autre fonction dans le même fichier
 2. Tester cette nouvelle quadrature en utilisant comme modèle le
 programme [./src/tests.py](./src/tests.py): vérifier que cette formule
 calcul de manière exacte les intégrales de polynomes de degré au plus 1,
-et comment une erreur équivalente à $h^2$ (ou encore
+et commet une erreur équivalente à $h^2$ (ou encore
 $N^{-2}$). Reproduire ci-dessous les tableaux d'erreurs qui démontrent
 ce résultat, et inclure le graphe de convergence des approximations.
 
 3. On veut tester nos formules pour d'autres fonctions que les
 polynômes. Pour cela, on ajoute les fonctions souhaitées dans le fichier
 [./src/fonctions_test.py](./src/fonctions_test.py). En suivant le modèle
-donné pour les monomes, programmer les fonctions (et une de leurs
-primitives)
+donné pour les monomes, programmer les fonctions, et une de leurs
+primitives
  - $f(x) = |x|$ et $g(x) = 0.5*x*|x|$;
  - $f(x) = cos(x)$ et $g(x) = sin(x)$;
  - $f(x) = exp(x)$ et $g(x) = exp(x)$;
  - $f(x) = 1/(1+x^2)$ et $g(x) = atan(x)$.
 
-4. En adaptant le programme [./src/tests.py](./src/tests.py), produire
-une unique figure qui compare les graphes de convergence de l'erreur
-pour ces nouvelles fonctions integrées sur l'intervalle
-$[-1,1]$. Insérez l'image ci-dessous, et faites tous les commentaires
-utiles.
+4. Produire une unique figure qui compare les graphes de convergence de
+l'erreur pour ces nouvelles fonctions integrées sur l'intervalle
+$[-1,1]$ avec les méthodes du point milieu et des trapèzes. Insérez
+l'image ci-dessous, et faites tous les commentaires utiles.
 
 Pour plus de précision, donnez un tableau comparatif des erreurs commise
-pour la méthode du point milieu pour chacune des ces fonctions.
+pour chacune de ces fonctions pour les deux méthodes.
 
 5. Programmez maintenant la méthode de Simpson et les méthodes de
-   Gauss-Legendre à 2 et 3 points (voir le document
-   [./tex/memo_quadratures.pdf](./tex/memo_quadratures.pdf)). Expliquez
-   la stratégie de programmation retenue. Vérifiez numériquement que les
-   formules intègrent exactement les polynomes de degré au plus 3
-   (Simpson, Gauss-Legendre à 2 points) ou 5 (Gauss-Legendre à 3
-   points). Calculez numériquement l'ordre de convergence de ces
-   méthodes.
+Gauss-Legendre à 2 et 3 points (voir le document
+[./tex/memo_quadratures.pdf](./tex/memo_quadratures.pdf)). 
 
-6. On peut maintenant comparer la précision et la vitesse de convergence
-   de ces 3 méthodes supplémentaires avec la méthode du point
-   milieu. Pour cela, dressez un tableau et un graphe de convergence
-   pour chacune des fonctions de la question 3. Vous pouvez discuter du
-   résultat.
+  1. Expliquez la stratégie de programmation retenue.
+  
+  2. Vérifiez numériquement que les formules intègrent exactement les
+polynomes de degré au plus 3 (Simpson, Gauss-Legendre à 2 points) ou 5
+(Gauss-Legendre à 3 points).
+  
+  3. Calculez numériquement l'ordre de convergence de ces méthodes
+     (graphes et tableaux).
+
+6. On peut maintenant comparer l'ensemble des méthodes programmées, pour
+chacune des fonctions de la question 3. Produisez les tableaux et
+graphes d'erreurs que vous jugez utilse et discutez les résultats
+obtenus.
 
 **N'oubliez pas de valider les modifications faites le plus souvent
 possible (*validations atomiques*), et de documenter intelligiblement
