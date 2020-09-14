@@ -1,4 +1,4 @@
-# Première initiation à git en programmant des formules de quadrature en python
+# Première initiation à git, python, markdown en programmant des formules de quadrature en python
 
 ## Introduction
 Ce fichier fait en même temps office d'énoncé du travail et de compte
@@ -13,7 +13,7 @@ Ce fichier est rédigé, et doit être complété en utilisant le formatage
 *markdown*.
 
 Ce travail me permet d'évaluer
-- vos capacités de programmation en python
+- vos capacités initiales de programmation en python
 - votre capacité à utiliser un document mathématique pour réaliser un
   programme
 - votre capacité à apprendre un nouveau formalisme (*python* et surtout *markdown*)
@@ -29,7 +29,7 @@ sont vos acquis sur les points ci-dessus.*
 **À la fin de votre travail, il est donc capital de pousser (*git push*)
   vos modifications sur le serveur, afin que je puisse les voir**
 
-## Rappel
+## Avant de commencer
 * prenre connaissance, brièvement, du [langage
 Markdown](https://guides.github.com/features/mastering-markdown) propre
 à la plateforme Github.
@@ -97,9 +97,26 @@ Le programme fournit permet de tester la formule du point milieu sur les
 monomes (puissance 0, 1, 2). Les résultats obtenus sont donnés dans le
 tableau et le graphe ci-dessous: 
 
-![Illustration de l'ordre de la méthode du point
+n   | x^0 | x^1 | x^2
+--- | --- | --- | ---
+1   |   0 |   0 | 8.333e-02
+2   |   0 |   0 | 2.083e-02
+4   |   0 |   0 | 51208e-03
+8   |   0 |   0 | 1.302e-03
+16  |   0 |   0 | 3.255e-04
+32  |   0 |   0 | 8.138e-05
+64  |   0 |   0 | 2.035e-05
+128 |   0 |   0 | 5.086e-06
+256 |   0 |   0 | 1.272e-06
+512 |   0 |   0 | 3.179e-07
+
+[Illustration de l'ordre de la méthode du point
 milieu](./img/test_1.png)
 
+L'erreur est nulle pour l'intégration des fonctions $x^0$ et $x^1$ car
+la formule utilisée est exacte pour les polynômes jusqu'au degré 1. La
+courbe ne s'affiche donc pas (en échelle logarithmique, $0$ est à
+$-\infty$). 
 
 1. En suivant le modèle de la formule du point milieu, dans le fichier
 [./src/quadratures.py](./src/quadratures.py) programmer la méthode des
