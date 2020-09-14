@@ -1,49 +1,66 @@
 # Première initiation à git en programmant des formules de quadrature en python
 
-Ce fichier fait office de compte rendu. Il doit donc être mis à jour au
-cours de la séance, au fur et à mesure que vous réalisez le travail. Les
-fichiers modifiés et ajoutés font évidemment partie du travail.
+## Introduction
+Ce fichier fait en même temps office d'énoncé du travail et de compte
+rendu. Il doit donc être complété au cours de la séance, au fur et à
+mesure que vous réalisez le travail. Les modifications de ce fichier
+[./README.md](./README.md) et des fichiers modifiés et ajoutés par
+exemple dans les répertoires [./src](./src) ou [./img](./img) doivent
+donc être décrit dans l'historique du dépôt git, à travers une série de
+*commit* les plus simples possible (dits *atomiques*).
 
-C'est la version du mardi 17 septembre 2019 à 23h et son historique qui
-sera notée.
+Ce fichier est rédigé, et doit être complété en utilisant le formatage
+*markdown*.
 
-*Il n'est pas nécessaire d'aller au bout des questions (le travail est
-adapté à vos expériences de programmation, qui sont très
-variables). C'est l'effort dans l'utilisation des outils (git et python)
-qui est valorisé.*
+Ce travail me permet d'évaluer
+- vos capacités de programmation en python
+- votre capacité à utiliser un document mathématique pour réaliser un
+  programme
+- votre capacité à apprendre un nouveau formalisme (*python* et surtout *markdown*)
+- vos compétences techniques relatives à l'utilisation de git
+- vos capacités à documenter avec un niveau de détail adapté votre
+  travail. 
+
+*Il n'est pas nécessaire d'aller au bout des questions de programmation
+(le niveau de départ en programmation au sein du groupe est très
+hétérogène), l'essentiel est que j'ai la possibilité de comprendre quels
+sont vos acquis sur les points ci-dessus.*
 
 **À la fin de votre travail, il est donc capital de pousser (*git push*)
   vos modifications sur le serveur, afin que je puisse les voir**
 
-*Rappel:* prenre connaissance, brièvement, du [langage
+## Rappel
+* prenre connaissance, brièvement, du [langage
 Markdown](https://guides.github.com/features/mastering-markdown) propre
 à la plateforme Github.
 
 Si vous lisez ceci, c'est que vous avez:
 
-- un compte sur la plateforme github.com, et un email validé de l'
-  Université
+- un compte sur la plateforme github.com, et un email validé de
+  l'Université (IDNum)
 
-- accepté le lien envoyé sur votre messagerie étudiante, et ainsi obtenu
-  la création automatique d'un dépôt git contenant le descriptif du
-  travail à réaliser (ce fichier).
+- utilisé le lien déposé sur moodle, et accepté la création automatique
+  d'un dépôt git contenant ce répertoire de travail.
 
 ## Première partie: environnement de travail et initiation à Python
 
 1. Une fois le dépôt créé, vous le voyez sur votre compte github (en
-ligne). Vous pouvez donc récupérer l'adresse et télécharger le dépôt
-pour commencer à travailler (*git clone <url à récupérer en ligne>*).
+ligne). Vous pouvez donc récupérer l'adresse et commencer à travailler
+(*git clone <url à récupérer en ligne>*).
 
-2. N'oubliez pas de configurer git si nécessaire (*git config --list,
-git config --local user.{name,email}*).
+2. N'oubliez pas de configurer git si nécessaire: *git config --list,
+git config --local user.{name,email}* pour regler vos identifiant et
+adresse email..
 
 3. Préparez votre environnement de travail: éditeur de texte (*emacs*,
 *vim*, *atom*...) et terminaux (terminal par défaut du système, pour git
 et pour l'interpréteur *ipython3*), ou bien environnement de
-développement intégré (comme *spyder3*). Pouvez-vous détailler
-ci-dessous votre choix d'environnement de travail ?
+développement intégré (comme *spyder3* ou *pycharm*). 
 
-*...écrire la réponse ici...*
+Détaillez ci-dessous votre choix d'environnement de travail et les
+raisons de ce choix.
+
+*...à compléter...*
 
 4. Puisque vous avez apporté des modifications cohérentes (réponse à la
 question 3. ci-dessus), validez ces modifications (*git add* et *git
@@ -68,10 +85,21 @@ ressembler à :
 Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
 chacun des fichiers présents ?
 
+*...à compléter...*
+
 **Pensez à valider régulièrement votre travail, et à pousser les
-  changements sur le serveur (*git push*)**
+  changements sur le serveur (*git push*) de temps en temps et surtout à
+  la fin de la séance de travail**
 
 ## Deuxième partie: formules de quadrature
+
+Le programme fournit permet de tester la formule du point milieu sur les
+monomes (puissance 0, 1, 2). Les résultats obtenus sont donnés dans le
+tableau et le graphe ci-dessous: 
+
+![Illustration de l'ordre de la méthode du point
+milieu](./img/test_1.png)
+
 
 1. En suivant le modèle de la formule du point milieu, dans le fichier
 [./src/quadratures.py](./src/quadratures.py) programmer la méthode des
