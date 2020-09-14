@@ -15,8 +15,10 @@ def monome(x):
     """
     return x**degre
 
-def monome_int(x):
+def primitive_monome(x):
     """primitive de la fonction x^k. Par défaut k=0."""
 
     return x**(degre+1)/(degre+1.)
 
+# Définir ici les autres fonctions utilisées pour des tests et leurs
+# primitives si elles sont connues

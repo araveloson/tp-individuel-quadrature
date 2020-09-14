@@ -11,3 +11,5 @@ def pt_milieu(f,a,b,n):
     xm = a + (0.5+np.arange(n))*h
     Q = h*np.sum(f(xm))
     return Q
+
+# Définir ci-dessous les autres méthodes de quadrature
