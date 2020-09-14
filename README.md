@@ -118,6 +118,12 @@ la formule utilisée est exacte pour les polynômes jusqu'au degré 1. La
 courbe ne s'affiche donc pas (en échelle logarithmique, $0$ est à
 $-\infty$). 
 
+Pour la fonction $x^2$, on voit que l'erreur décroit proportionnellement
+à $1/n^2$: elle est divisée par 4 à chaque fois que $n$ est multiplié
+par 2 (dans le tableau) ou encore est divisée par 10^2 chaque fois que
+$n$ est multiplié par 10 (visible sur le graphe). C'est cohérent avec la
+théorie pour une formule composée d'ordre 1.
+
 1. En suivant le modèle de la formule du point milieu, dans le fichier
 [./src/quadratures.py](./src/quadratures.py) programmer la méthode des
 trapèzes (programmer une autre fonction dans le même fichier
